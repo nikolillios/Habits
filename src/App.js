@@ -13,6 +13,7 @@ class App extends Component {
       entries: [],
     }
     this.setUserAndFetchPosts = this.setUserAndFetchPosts.bind(this);
+    document.title = "Habits";
   }
 
   fetchPostsById = (id) => {
